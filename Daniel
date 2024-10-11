@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Delivery Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to [Your Name] Delivers</h1>
+        <p>Fast and affordable delivery in your neighborhood!</p>
+    </header>
+    
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <p>1. Text your name, address, and restaurant details.</p>
+        <p>2. Place an order for pickup from your favorite restaurant.</p>
+        <p>3. We deliver it for just $5!</p>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <form action="/submit-order" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required><br><br>
+            
+            <label for="restaurant">Restaurant Name:</label>
+            <input type="text" id="restaurant" name="restaurant" required><br><br>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 [Your Name] Delivers</p>
+    </footer>
+</body>
+</html>
